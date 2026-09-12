@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     "Find your favourite girlies, see where they’re working, check their availability and send digital drinks with Is My Girly Free?",
   applicationName: "Is My Girly Free?",
   icons: {
-    icon: "/icon.png",
-    shortcut: "/icon.png",
-    apple: "/icon.png",
+    icon: "/girly-favicon.png",
+    shortcut: "/girly-favicon.png",
+    apple: "/girly-favicon.png",
   },
   openGraph: {
     title: "Is My Girly Free?",
