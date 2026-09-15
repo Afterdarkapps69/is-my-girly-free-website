@@ -281,18 +281,89 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-
       {/* For Guys visual */}
       <section id="guys" className="scroll-mt-56 border-b border-zinc-900 bg-black">
         <div className="mx-auto max-w-[1500px] px-6 py-16">
-          <Image
-            src="/for-guys-banner.png"
-            alt="For Guys - Find Her, Follow Her, Know Where She's Working"
-            width={1672}
-            height={941}
-            className="h-auto w-full rounded-3xl border border-pink-500/20"
-          />
+          <div className="relative min-h-[760px] overflow-hidden rounded-3xl border border-pink-500/20 bg-black">
+            <Image
+              src="/for-guys-banner.png"
+              alt="Is My Girly Free app screens"
+              fill
+              className="object-cover object-right scale-[0.84] origin-right"
+              sizes="100vw"
+            />
+
+            <div className="absolute inset-y-0 left-0 w-[52%] bg-gradient-to-r from-black via-black to-transparent" />
+            <div className="absolute inset-x-0 bottom-0 h-[23%] bg-gradient-to-t from-black via-black/95 to-transparent" />
+
+            <div className="relative z-10 flex min-h-[760px] flex-col justify-between p-8 sm:p-12 lg:p-16">
+              <div className="max-w-[470px]">
+                <p className="text-sm font-black uppercase tracking-[0.28em] text-pink-500">
+                  For Guys
+                </p>
+
+                <h2 className="mt-5 text-4xl font-black leading-[1.05] text-white sm:text-5xl lg:text-6xl">
+                  Find Her. Follow Her.
+                  <span className="mt-2 block text-pink-500">
+                    Know Where She&apos;s Working.
+                  </span>
+                </h2>
+
+                <p className="mt-7 text-lg leading-8 text-zinc-300">
+                  Browse nearby bars, check bar details and who&apos;s available tonight,
+                  and save your favourites so you can quickly see if they move bars or workplaces.
+                </p>
+
+                <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+                  <a
+                    href="#download"
+                    className="inline-flex items-center justify-center rounded-xl bg-pink-500 px-8 py-4 text-base font-black text-white transition hover:bg-pink-400"
+                  >
+                    Download the App
+                  </a>
+
+                  <a
+                    href="#benefits"
+                    className="inline-flex items-center justify-center rounded-xl border border-pink-500 px-8 py-4 text-base font-black text-white transition hover:bg-pink-500/10"
+                  >
+                    Learn More →
+                  </a>
+                </div>
+              </div>
+
+              <div className="grid gap-4 pt-10 md:grid-cols-3">
+                <a
+                  href="#download"
+                  className="rounded-2xl border border-zinc-800 bg-black/80 p-5 backdrop-blur transition hover:border-pink-500"
+                >
+                  <p className="font-black text-white">Map Nearby Bars</p>
+                  <p className="mt-2 text-sm leading-6 text-zinc-400">
+                    Discover bars and see who&apos;s working tonight.
+                  </p>
+                </a>
+
+                <a
+                  href="#download"
+                  className="rounded-2xl border border-zinc-800 bg-black/80 p-5 backdrop-blur transition hover:border-pink-500"
+                >
+                  <p className="font-black text-white">See Bar Details &amp; Availability</p>
+                  <p className="mt-2 text-sm leading-6 text-zinc-400">
+                    Check bar information, hours and who&apos;s available.
+                  </p>
+                </a>
+
+                <a
+                  href="#benefits"
+                  className="rounded-2xl border border-zinc-800 bg-black/80 p-5 backdrop-blur transition hover:border-pink-500"
+                >
+                  <p className="font-black text-white">Track Favourites</p>
+                  <p className="mt-2 text-sm leading-6 text-zinc-400">
+                    Save favourite profiles and quickly find them again.
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
