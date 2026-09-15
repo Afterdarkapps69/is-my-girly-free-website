@@ -125,14 +125,14 @@ export default function Home() {
 
               <p className="mt-6 max-w-xl text-lg leading-8 text-zinc-400">
                 From bartenders and waitresses to hostesses, dancers and performers —
-                stay visible, stay connected and let your regulars know where you&apos;re working.
+                stay visible, stay connected and let your regulars know where you're working.
               </p>
             </div>
 
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {[
                 ["bartender.png", "Bartenders", "Keep your regulars connected."],
-                ["waitress.png", "Waitresses", "Stay visible when you&apos;re working."],
+                ["waitress.png", "Waitresses", "Stay visible when you're working."],
                 ["hostess.png", "Hostesses", "Let people know where to find you."],
                 ["dancer.png", "Dancers & Performers", "Build your network and stay connected."],
               ].map(([src, title, text]) => (
@@ -175,7 +175,7 @@ export default function Home() {
             </h2>
             <p className="mt-5 max-w-xl text-lg leading-8 text-zinc-400">
               If you work in bars, hospitality or nightlife, Is My Girly Free?
-              helps your regular customers find you, see when you&apos;re working
+              helps your regular customers find you, see when you're working
               and send you digital drinks even when they can&apos;t make it to the bar.
             </p>
           </div>
