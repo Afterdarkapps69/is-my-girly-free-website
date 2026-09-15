@@ -27,6 +27,13 @@ export default function Home() {
             <a href="#how-it-works" className="hover:text-pink-500">How It Works</a>
             <a href="#girlies" className="hover:text-pink-500">For Girlies</a>
             <a href="#guys" className="hover:text-pink-500">For Guys</a>
+          <a
+            href="https://girlytoken.ismygirlyfree.com"
+            className="font-bold text-pink-500 hover:text-pink-400"
+          >
+            $GIRLY
+          </a>
+
             <a href="#download" className="hover:text-pink-500">Download</a>
           </nav>
 
@@ -480,6 +487,73 @@ export default function Home() {
                 <p className="mt-6 font-black text-white">{name}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+
+      {/* GIRLY Token */}
+      <section className="border-b border-zinc-900 bg-black">
+        <div className="mx-auto max-w-7xl px-6 py-24">
+          <div className="overflow-hidden rounded-[2.5rem] border border-pink-500/30 bg-zinc-950 p-8 sm:p-12 lg:p-16">
+            <div className="grid items-center gap-12 lg:grid-cols-[1.1fr_.9fr]">
+
+              <div>
+                <p className="text-sm font-black uppercase tracking-[0.3em] text-pink-500">
+                  The Is My Girly Free? Token
+                </p>
+
+                <h2 className="mt-4 text-5xl font-black tracking-tight text-white sm:text-6xl">
+                  Meet <span className="text-pink-500">$GIRLY</span>
+                </h2>
+
+                <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-300">
+                  $GIRLY is the community and utility token for the Is My Girly Free?
+                  ecosystem, built on Base for community rewards, digital gifting and
+                  future in-app utility.
+                </p>
+
+                <div className="mt-8 flex flex-wrap gap-3">
+                  <div className="rounded-xl border border-zinc-800 bg-black px-5 py-4">
+                    <p className="text-xs uppercase tracking-widest text-zinc-500">Network</p>
+                    <p className="mt-1 font-black text-white">Base</p>
+                  </div>
+
+                  <div className="rounded-xl border border-zinc-800 bg-black px-5 py-4">
+                    <p className="text-xs uppercase tracking-widest text-zinc-500">Max Supply</p>
+                    <p className="mt-1 font-black text-white">100M</p>
+                  </div>
+
+                  <div className="rounded-xl border border-zinc-800 bg-black px-5 py-4">
+                    <p className="text-xs uppercase tracking-widest text-zinc-500">Public Sale</p>
+                    <p className="mt-1 font-black text-white">10M $GIRLY</p>
+                  </div>
+
+                  <div className="rounded-xl border border-zinc-800 bg-black px-5 py-4">
+                    <p className="text-xs uppercase tracking-widest text-zinc-500">Sale Price</p>
+                    <p className="mt-1 font-black text-white">$0.015</p>
+                  </div>
+                </div>
+
+                <a
+                  href="https://girlytoken.ismygirlyfree.com"
+                  className="mt-9 inline-flex rounded-xl bg-pink-500 px-8 py-4 font-black text-white transition hover:bg-pink-400"
+                >
+                  Explore $GIRLY →
+                </a>
+              </div>
+
+              <div className="rounded-3xl border border-pink-500/20 bg-black p-10 text-center">
+                <div className="text-7xl font-black text-pink-500">$GIRLY</div>
+                <p className="mt-4 text-lg font-bold text-white">
+                  Community. Rewards. Utility.
+                </p>
+                <p className="mt-3 text-zinc-400">
+                  Part of the Is My Girly Free? ecosystem.
+                </p>
+              </div>
+
+            </div>
           </div>
         </div>
       </section>
